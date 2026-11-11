@@ -1,0 +1,1458 @@
+[
+  {
+    "filename": "abduction",
+    "hash": "1ritt77g1fv",
+    "name": "Abduction",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 0
+  },
+  {
+    "filename": "aqueduct",
+    "hash": "11dp765kifr",
+    "name": "Aqueduct",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18",
+    "index": 1
+  },
+  {
+    "filename": "backstage",
+    "hash": "9dsromfqr1",
+    "name": "Backstage",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "14",
+    "index": 2
+  },
+  {
+    "filename": "baked",
+    "hash": "270mqgy2uum",
+    "name": "Baked",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 3
+  },
+  {
+    "filename": "bastion",
+    "hash": "uuwh7401no",
+    "name": "Bastion",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "both",
+    "numPlayers": "12",
+    "index": 4
+  },
+  {
+    "filename": "bedrock",
+    "hash": "yqbkimntiu",
+    "name": "Bedrock",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "12",
+    "index": 5
+  },
+  {
+    "filename": "biohazard",
+    "hash": "kzarr9ebqx",
+    "name": "BioHazard",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": false
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 6
+  },
+  {
+    "filename": "blender",
+    "hash": "1vvfxp9rt8u",
+    "name": "Blender",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "14",
+    "index": 7
+  },
+  {
+    "filename": "blue",
+    "hash": "2e7izzo70bk",
+    "name": "Blue",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "14",
+    "index": 8
+  },
+  {
+    "filename": "boilerworks",
+    "hash": "143mnbxoj6q",
+    "name": "Boilerworks",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "12",
+    "index": 9
+  },
+  {
+    "filename": "bridge",
+    "hash": "20vcy8e1ev0",
+    "name": "Bridge",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": false
+    },
+    "availability": "private",
+    "numPlayers": "6",
+    "index": 10
+  },
+  {
+    "filename": "canyon",
+    "hash": "2avqtv9ygk1",
+    "name": "Canyon",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 11
+  },
+  {
+    "filename": "cash",
+    "hash": "1427gfre8ma",
+    "name": "Cash",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 12
+  },
+  {
+    "filename": "castle",
+    "hash": "2d2tcz2mw7e",
+    "name": "Castle",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "12",
+    "index": 13
+  },
+  {
+    "filename": "castleArena",
+    "hash": "9dhs3kms6l",
+    "name": "Castle Arena",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": false
+    },
+    "availability": "private",
+    "numPlayers": "8",
+    "index": 14
+  },
+  {
+    "filename": "catacombs",
+    "hash": "2el91jtcun0",
+    "name": "Catacombs",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 15
+  },
+  {
+    "filename": "chickenItza",
+    "hash": "hyjqbat0i3",
+    "name": "Chicken Itza",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 16
+  },
+  {
+    "filename": "cluckgrounds",
+    "hash": "1h9z3hj51g5",
+    "name": "Cluckgrounds",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "16",
+    "index": 17
+  },
+  {
+    "filename": "cobalt",
+    "hash": "1c9fg9re2mf",
+    "name": "Cobalt",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 18
+  },
+  {
+    "filename": "courtyard",
+    "hash": "kh2cr3m620",
+    "name": "Courtyard",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18",
+    "index": 19
+  },
+  {
+    "filename": "creak",
+    "hash": "l2pzui2f6o",
+    "name": "Creak",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 20
+  },
+  {
+    "filename": "crossed",
+    "hash": "ead3tcf30r",
+    "name": "Crossed",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "12",
+    "index": 21
+  },
+  {
+    "filename": "crowsnest",
+    "hash": "1ze2s5zr9bm",
+    "name": "Crowsnest",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "8",
+    "index": 22
+  },
+  {
+    "filename": "deathpit",
+    "hash": "1cc9cvjf607",
+    "name": "Death Pit",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "12",
+    "index": 23
+  },
+  {
+    "filename": "dirt",
+    "hash": "1u3k5nfvwuh",
+    "name": "Dirt",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 24
+  },
+  {
+    "filename": "dirt2",
+    "hash": "494aka3mb4",
+    "name": "Dirt 2",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 25
+  },
+  {
+    "filename": "dirtbase",
+    "hash": "6e9r2y7dxk",
+    "name": "Dirt Base",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": false
+    },
+    "availability": "private",
+    "numPlayers": "10",
+    "index": 26
+  },
+  {
+    "filename": "downfall",
+    "hash": "26g5aj8aruc",
+    "name": "Downfall",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": false
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 27
+  },
+  {
+    "filename": "duelPyramid",
+    "hash": "vmg0rj2e3b",
+    "name": "Duel Pyramid",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": false
+    },
+    "availability": "private",
+    "numPlayers": "6",
+    "index": 28
+  },
+  {
+    "filename": "eggcrates",
+    "hash": "j0i36e808n",
+    "name": "Eggcrates",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "6",
+    "index": 29
+  },
+  {
+    "filename": "enchanted",
+    "hash": "1igxtcyetaw",
+    "name": "Enchanted",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "16",
+    "index": 30
+  },
+  {
+    "filename": "exposure",
+    "hash": "15hv3cme1fh",
+    "name": "Exposure",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 31
+  },
+  {
+    "filename": "facility",
+    "hash": "18djbmo35ru",
+    "name": "Facility",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 32
+  },
+  {
+    "filename": "feedlot",
+    "hash": "iuj8rc7kyh",
+    "name": "Feedlot",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "16",
+    "index": 33
+  },
+  {
+    "filename": "field",
+    "hash": "e4aszuch87",
+    "name": "Field",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": false
+    },
+    "availability": "private",
+    "numPlayers": "10",
+    "index": 34
+  },
+  {
+    "filename": "flux",
+    "hash": "2e9jbskip5u",
+    "name": "Flux",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 35
+  },
+  {
+    "filename": "fortFlip",
+    "hash": "1w1b6dkalc2",
+    "name": "Fort Flip",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18",
+    "index": 36
+  },
+  {
+    "filename": "foundation",
+    "hash": "11y636vc64b",
+    "name": "Foundation",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18",
+    "index": 37
+  },
+  {
+    "filename": "fourQuarters",
+    "hash": "1a0w7vbz8is",
+    "name": "Four Quarters",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": false
+    },
+    "availability": "private",
+    "numPlayers": "10",
+    "index": 38
+  },
+  {
+    "filename": "gravelstomp",
+    "hash": "h2s7fdl8ke",
+    "name": "Gravel Stomp",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18",
+    "index": 39
+  },
+  {
+    "filename": "greenhouse",
+    "hash": "1zx6pqgc23x",
+    "name": "Greenhouse",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 40
+  },
+  {
+    "filename": "growler",
+    "hash": "1izyni7tb1e",
+    "name": "Growler",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "12",
+    "index": 41
+  },
+  {
+    "filename": "haunted",
+    "hash": "2dma8z1jdev",
+    "name": "Haunted",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "16",
+    "index": 42
+  },
+  {
+    "filename": "helix",
+    "hash": "i2sl4vsg3h",
+    "name": "Helix",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 43
+  },
+  {
+    "filename": "hydro",
+    "hash": "8znnxbxfss",
+    "name": "Hydro",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 44
+  },
+  {
+    "filename": "icebox",
+    "hash": "1mwbrjievwg",
+    "name": "Ice Box",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 45
+  },
+  {
+    "filename": "indigo",
+    "hash": "1vrzzn6ym9q",
+    "name": "Indigo",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 46
+  },
+  {
+    "filename": "inmates",
+    "hash": "19wzahko4nm",
+    "name": "Inmates",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 47
+  },
+  {
+    "filename": "jailbreak",
+    "hash": "2a3blmd9hf4",
+    "name": "Jail Break",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "both",
+    "numPlayers": "14",
+    "index": 48
+  },
+  {
+    "filename": "jinx",
+    "hash": "24u6pohagnj",
+    "name": "Jinx",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 49
+  },
+  {
+    "filename": "junction",
+    "hash": "bkca8j2ppd",
+    "name": "Junction",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 50
+  },
+  {
+    "filename": "kingsCourt",
+    "hash": "aq1t2lsjza",
+    "name": "King's Court",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18",
+    "index": 51
+  },
+  {
+    "filename": "lunarmodule",
+    "hash": "1448aqjdqvl",
+    "name": "Lunar Module",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 52
+  },
+  {
+    "filename": "mansion",
+    "hash": "nqhtvwj3fo",
+    "name": "Mansion",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 53
+  },
+  {
+    "filename": "mazerunner",
+    "hash": "j16i30k9dz",
+    "name": "Maze Runner",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 54
+  },
+  {
+    "filename": "metro",
+    "hash": "1keh36qjpjz",
+    "name": "Metro 1012",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 55
+  },
+  {
+    "filename": "moonbase",
+    "hash": "1yzocf1mex3",
+    "name": "Moonbase",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18",
+    "index": 56
+  },
+  {
+    "filename": "mudGulch",
+    "hash": "kto278skze",
+    "name": "Mud Gulch",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "both",
+    "numPlayers": "14",
+    "index": 57
+  },
+  {
+    "filename": "nextdoor",
+    "hash": "s2i5za1kx9",
+    "name": "Nextdoor",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 58
+  },
+  {
+    "filename": "orbital",
+    "hash": "76g9ms7t5o",
+    "name": "Orbital",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 59
+  },
+  {
+    "filename": "outer",
+    "hash": "w1biqokp89",
+    "name": "Outer Reach",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 60
+  },
+  {
+    "filename": "overcooked",
+    "hash": "29ca98hgdeh",
+    "name": "Overcooked",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "12",
+    "index": 61
+  },
+  {
+    "filename": "palaceSiege",
+    "hash": "1enghs5hsxe",
+    "name": "Palace Siege",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "14",
+    "index": 62
+  },
+  {
+    "filename": "parkour1",
+    "hash": "1fwysuizmoy",
+    "name": "Parkour - Easy",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": false
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 63
+  },
+  {
+    "filename": "parkour2",
+    "hash": "25n7k671t0e",
+    "name": "Parkour - Medium",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": false
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 64
+  },
+  {
+    "filename": "parkour3",
+    "hash": "pm58s3bnil",
+    "name": "Parkour - Hard",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": false
+    },
+    "availability": "private",
+    "numPlayers": "12",
+    "index": 65
+  },
+  {
+    "filename": "quarry",
+    "hash": "2crjk106pa",
+    "name": "Quarry",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "14",
+    "index": 66
+  },
+  {
+    "filename": "queenscourt",
+    "hash": "raudy4h9pv",
+    "name": "Queen's Court",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 67
+  },
+  {
+    "filename": "raceway",
+    "hash": "1a3eo6xaoju",
+    "name": "Raceway",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 68
+  },
+  {
+    "filename": "rameses",
+    "hash": "177jt4j8so9",
+    "name": "Rameses",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "16",
+    "index": 69
+  },
+  {
+    "filename": "rats",
+    "hash": "13r2oqql8se",
+    "name": "Rats",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 70
+  },
+  {
+    "filename": "redlands",
+    "hash": "97chdvh1bh",
+    "name": "Redlands",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 71
+  },
+  {
+    "filename": "relic",
+    "hash": "lxzknz53a2",
+    "name": "Relic",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 72
+  },
+  {
+    "filename": "rivals",
+    "hash": "26fkvcef2h6",
+    "name": "Rivals",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": false
+    },
+    "availability": "private",
+    "numPlayers": "6",
+    "index": 73
+  },
+  {
+    "filename": "road",
+    "hash": "2h312vlocd",
+    "name": "Road",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "14",
+    "index": 74
+  },
+  {
+    "filename": "ruins",
+    "hash": "3ycs8z9bcu",
+    "name": "Ruins",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 75
+  },
+  {
+    "filename": "sanctuary",
+    "hash": "1evqx0d08e4",
+    "name": "Sanctuary",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 76
+  },
+  {
+    "filename": "scales",
+    "hash": "101v5lpkv1s",
+    "name": "Scales",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18",
+    "index": 77
+  },
+  {
+    "filename": "shadyglen",
+    "hash": "2d0d4bj7aq3",
+    "name": "Shady Glen",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "12",
+    "index": 78
+  },
+  {
+    "filename": "shellville",
+    "hash": "fdgmkbfe7n",
+    "name": "Shellville",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "16",
+    "index": 79
+  },
+  {
+    "filename": "shipyard",
+    "hash": "1n1sptszksq",
+    "name": "Shipyard",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 80
+  },
+  {
+    "filename": "skyScratcher",
+    "hash": "1th1c8epp95",
+    "name": "Sky Scratcher",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 81
+  },
+  {
+    "filename": "spaceFactory",
+    "hash": "10802a2az0f",
+    "name": "Space Factory",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "10",
+    "index": 82
+  },
+  {
+    "filename": "spacearena",
+    "hash": "k9zf5lqzze",
+    "name": "Space Arena",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": false
+    },
+    "availability": "private",
+    "numPlayers": "14",
+    "index": 83
+  },
+  {
+    "filename": "sparta",
+    "hash": "274wwdyll9w",
+    "name": "Sparta",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 84
+  },
+  {
+    "filename": "spellbound",
+    "hash": "1curtd0i4ls",
+    "name": "Spellbound",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "12",
+    "index": 85
+  },
+  {
+    "filename": "stage",
+    "hash": "1zn44r9jb3t",
+    "name": "Stage",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 86
+  },
+  {
+    "filename": "starship",
+    "hash": "24m3k5sq9tn",
+    "name": "Starship",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 87
+  },
+  {
+    "filename": "staxarena",
+    "hash": "1jid8ffda0z",
+    "name": "Stax Arena",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": false
+    },
+    "availability": "private",
+    "numPlayers": "6",
+    "index": 88
+  },
+  {
+    "filename": "stealth",
+    "hash": "yj4a2qrc97",
+    "name": "Stealth",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 89
+  },
+  {
+    "filename": "stronghold",
+    "hash": "1w3861xj5r2",
+    "name": "Stronghold",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 90
+  },
+  {
+    "filename": "teggtris",
+    "hash": "1y4rswkkv3l",
+    "name": "Teggtris",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 91
+  },
+  {
+    "filename": "temple",
+    "hash": "26mjegz6a4b",
+    "name": "Temple",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": false
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 92
+  },
+  {
+    "filename": "timetwist",
+    "hash": "1ad75xyk2rv",
+    "name": "Timetwist",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 93
+  },
+  {
+    "filename": "trainyard",
+    "hash": "2e1w70fjqet",
+    "name": "Trainyard",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 94
+  },
+  {
+    "filename": "treefort",
+    "hash": "14a9akanqms",
+    "name": "Tree Fort",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": false
+    },
+    "availability": "both",
+    "numPlayers": "6",
+    "index": 95
+  },
+  {
+    "filename": "twoTowers",
+    "hash": "2asidv5c0ff",
+    "name": "Two Towers",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 96
+  },
+  {
+    "filename": "uncovered",
+    "hash": "bxrd0zdvtn",
+    "name": "Uncovered",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": false
+    },
+    "availability": "private",
+    "numPlayers": "12",
+    "index": 97
+  },
+  {
+    "filename": "vert",
+    "hash": "25a9ikled77",
+    "name": "Vert",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "12",
+    "index": 98
+  },
+  {
+    "filename": "wimble",
+    "hash": "13smnxheae1",
+    "name": "Wimble",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 99
+  },
+  {
+    "filename": "wonderland",
+    "hash": "5n6ixyepvy",
+    "name": "Wonderland",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 100
+  },
+  {
+    "filename": "wreckage",
+    "hash": "nkiu4z6uj1",
+    "name": "Wreckage",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 101
+  },
+  {
+    "filename": "yolkido",
+    "hash": "pttsmqw7xj",
+    "name": "Yolkido Garrison",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 102
+  },
+  {
+    "filename": "zoomies",
+    "hash": "3vitx32ce8",
+    "name": "Zoomies",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 103
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "filename": "blue",
+    "hash": "2e7izzo70bk",
+    "name": "Blue",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "14",
+    "index": 8
+  },
+  {
+    "filename": "cluckgrounds",
+    "hash": "1h9z3hj51g5",
+    "name": "Cluckgrounds",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "16",
+    "index": 17
+  },
+  {
+    "filename": "kingsCourt",
+    "hash": "aq1t2lsjza",
+    "name": "King's Court",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "both",
+    "numPlayers": "18",
+    "index": 51
+  },
+  {
+    "filename": "shellville",
+    "hash": "fdgmkbfe7n",
+    "name": "Shellville",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "16",
+    "index": 79
+  },
+  {
+    "filename": "twoTowers",
+    "hash": "2asidv5c0ff",
+    "name": "Two Towers",
+    "modes": {
+      "FFA": true,
+      "Teams": true,
+      "Spatula": true,
+      "King": true
+    },
+    "availability": "private",
+    "numPlayers": "18",
+    "index": 96
+  }
+]

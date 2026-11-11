@@ -1,0 +1,94 @@
+/* eslint-disable no-underscore-dangle */
+//@ts-nocheck
+import { canvasListeners, getImports } from './imports.js';
+import { getStringFromWasm, passStringToWasm } from './utils.js';
+import { wasmBytes } from './bytes.js';
+const values = {
+    processListeners: [],
+    processDate: null
+};
+const importObj = {};
+// eslint-disable-next-line prefer-const
+let exports;
+Object.assign(importObj, getImports(() => exports, values));
+const wasm = await WebAssembly.instantiate(wasmBytes, importObj);
+exports = wasm.instance.exports;
+const rnd = (max) => Math.floor(Math.random() * max) + 1;
+exports.start();
+const [ptr, len] = passStringToWasm(exports, [...Array(14)].map(() => Math.random().toString(36)[2]).join(''));
+exports.set_mouse_params(50, 1, 0.9, false, ptr, len);
+for (let i = 0; i < 5; i++)
+    canvasListeners.pointermove({
+        movementX: rnd(5),
+        movementY: rnd(10)
+    });
+const process = async (str, date) => {
+    if (date)
+        values.processDate = date;
+    const promise = new Promise((resolve) => values.processListeners.push(resolve));
+    const [ptr, len] = passStringToWasm(exports, str);
+    exports.process(ptr, len);
+    return promise;
+};
+// const validate = (input) => {
+//     let retPtr;
+//     let retLen;
+//     try {
+//         const [ptr, len] = passStringToWasm(exports, input);
+//         const ret = exports.validate(ptr, len);
+//         retPtr = ret[0];
+//         retLen = ret[1];
+//         return getStringFromWasm(exports, retPtr, retLen);
+//     } finally {
+//         exports.__wbindgen_free(retPtr, retLen, 1);
+//     }
+// }
+const magicString = '3496afb51f42553e31635211400c000b';
+const hexToUint8Array = (hex) => new Uint8Array(hex.match(/.{2}/g).map((b) => parseInt(b, 16)));
+const encoder = new TextEncoder();
+const validate = async (input) => {
+    if (typeof process !== 'undefined' && typeof process.getBuiltinModule === 'function') {
+        const crypto = process.getBuiltinModule('node:crypto');
+        const salt = Buffer.from(magicString, 'hex');
+        return crypto.createHmac('sha256', salt).update(input).digest('hex');
+    }
+    const salt = hexToUint8Array(magicString);
+    const key = await crypto.subtle.importKey('raw', salt, { name: 'HMAC', hash: { name: 'SHA-256' } }, false, ['sign']);
+    const signature = await crypto.subtle.sign('HMAC', key, encoder.encode(input));
+    return Array.from(new Uint8Array(signature))
+        .map(b => b.toString(16).padStart(2, '0'))
+        .join('');
+};
+const normalizeYaw = (yaw) => {
+    while (yaw < 0)
+        yaw += 2 * Math.PI;
+    while (yaw >= 2 * Math.PI)
+        yaw -= 2 * Math.PI;
+    return yaw;
+};
+const calculateMovements = (currentYaw, currentPitch, targetYaw, targetPitch) => {
+    const normalizedCurrentYaw = normalizeYaw(currentYaw);
+    const normalizedTargetYaw = normalizeYaw(targetYaw);
+    let yawDiff = normalizedTargetYaw - normalizedCurrentYaw;
+    if (Math.abs(yawDiff) > Math.PI) {
+        yawDiff = yawDiff > 0 ? yawDiff - 2 * Math.PI : yawDiff + 2 * Math.PI;
+    }
+    const pitchDiff = targetPitch - currentPitch;
+    const yawSensitivity = 0.0025;
+    const pitchSensitivity = 0.0025;
+    const movementX = Math.round(-yawDiff / yawSensitivity);
+    const movementY = Math.round(-pitchDiff / pitchSensitivity);
+    return { movementX, movementY };
+};
+const getYawPitch = () => exports.get_yaw_pitch();
+const coords = (yaw, pitch) => {
+    const currentYawPitch = exports.get_yaw_pitch();
+    const movements = calculateMovements(currentYawPitch.yaw, currentYawPitch.pitch, yaw, pitch);
+    canvasListeners.pointermove({
+        movementX: movements.movementX,
+        movementY: movements.movementY
+    });
+    const newYawPitch = exports.get_yaw_pitch();
+    return newYawPitch.coords;
+};
+export { coords, getYawPitch, process as decodeJS, validate };

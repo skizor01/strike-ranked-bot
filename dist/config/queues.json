@@ -1,0 +1,44 @@
+[
+    {
+        "channelId": "1240324066292793407",
+        "queueType": "2v2",
+        "size": 4,
+        "active": true,
+        "mode": "SCRIM"
+    },
+    {
+        "channelId": "1230258227573428357",
+        "queueType": "3v3",
+        "size": 6,
+        "active": true,
+        "mode": "SCRIM"
+    },
+    {
+        "channelId": "1229497942407385098",
+        "queueType": "4v4",
+        "size": 6,
+        "active": true,
+        "mode": "SCRIM"
+    },
+    {
+        "channelId": "1233137086027272344",
+        "queueType": "5v5",
+        "size": 10,
+        "active": true,
+        "mode": "KOTC"
+    },
+    {
+        "channelId": "1233508205070385182",
+        "queueType": "6v6",
+        "size": 6,
+        "active": true,
+        "mode": "KOTC"
+    },
+    {
+        "channelId": "1255203824801415168",
+        "queueType": "7v7",
+        "size": 6,
+        "active": true,
+        "mode": "KOTC"
+    }
+]
